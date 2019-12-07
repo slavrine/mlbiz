@@ -229,21 +229,6 @@ canvas {
 .works_title_spacing {
     height: 20vw;
     display: flex;
-    flex-flow: column;
     justify-content: center;
     align-items: center;
-}
-
-.services_title_space {
-    height: 20vw;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.scroll_up_footer {
-    display: flex;
-    justify-content: center;
-    align-items: end;
 }

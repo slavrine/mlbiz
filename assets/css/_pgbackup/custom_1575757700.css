@@ -214,36 +214,4 @@ canvas {
 
 .services_title_size {
     height: 30vw;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.bg_works {
-    background-image: url('../img/custom/works/upside_down_bg_works.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.works_title_spacing {
-    height: 20vw;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.services_title_space {
-    height: 20vw;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.scroll_up_footer {
-    display: flex;
-    justify-content: center;
-    align-items: end;
 }

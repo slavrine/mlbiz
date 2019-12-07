@@ -3,6 +3,9 @@ var canvas = document.getElementById('nokey'),
    can_h = parseInt(canvas.getAttribute('height')),
    ctx = canvas.getContext('2d');
 
+
+
+
 // console.log(typeof can_w);
 
 var ball = {
@@ -134,6 +137,7 @@ function renderBalls(){
     });
 }
 
+
 // Update balls
 function updateBalls(){
     var new_balls = [];
@@ -183,6 +187,17 @@ function renderLines(){
     }
 }
 
+function draw_text(){
+
+    ctx.font = 'bold 65px Arial, sans-serif';
+    ctx.fillStyle = '#fff';
+    ctx.fillText('MLTune. Engage and Create', 50, 550);
+    ctx.strokeStyle = '#CFFF04';
+    ctx.strokeText('MLTune. Engage and Create', 52, 552);
+    ctx.textBaseline = 'bottom';
+}
+
+
 // calculate distance between two points
 function getDisOf(b1, b2){
     var  delta_x = Math.abs(b1.x - b2.x),
@@ -210,6 +225,8 @@ function render(){
     
     addBallIfy();
     
+    draw_text();
+
     window.requestAnimationFrame(render);
 }
 
@@ -272,6 +289,7 @@ canvas.addEventListener('mousemove', function(e){
 });
 
 
+  
 
 
 

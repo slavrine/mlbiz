@@ -241,9 +241,3 @@ canvas {
     justify-content: center;
     align-items: center;
 }
-
-.scroll_up_footer {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
