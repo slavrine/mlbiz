@@ -210,10 +210,6 @@
                 </div>
             </section>
             <section class="g-bg-secondary" id="process-section">
-                <div class="text-center g-mb-50">
-                    <h2 class="h1 g-color-black g-font-weight-600">Multifanctional Magic</h2>
-                    <p class="lead">This is where we begin to visualize your napkin sketches and make them into pixels.</p>
-                </div>
                 <div class="shortcode-html">
                     <!-- Dynamic Process -->
                     <div id="carousel1" class="js-carousel" data-infinite="true" data-pagi-classes="js-pagination u-carousel-indicators-v30 g-pos-abs g-top-0">
@@ -630,8 +626,6 @@
         <script src="assets/js/custom.js"></script>
         <!-- JS Plugins Init. -->
         <script>
-
-
     $(document).on('ready', function () {
       // initialization of go to
       $.HSCore.components.HSGoTo.init('.js-go-to');
@@ -639,12 +633,6 @@
       // initialization of carousel
       $.HSCore.components.HSCarousel.init('.js-carousel');
 
-      $('#carousel1').slick('setOption', 'customPaging', function (slider, i) {
-            var title = $(slider.$slides[i]).data('title');
-
-            return '<i class="u-dot-line-v1 g-brd-gray-light-v2--before g-brd-gray-light-v2--after g-mb-15--sm"><span class="u-dot-line-v1__inner g-bg-white g-bg-primary--before g-brd-gray-light-v2 g-brd-primary--active g-transition--ease-in g-transition-0_2"></span></i><span class="g-hidden-sm-down g-color-black g-font-size-15">' + title + '</span>';
-            }, true);
-            
       // initialization of HSDropdown component
       $.HSCore.components.HSDropdown.init($('[data-dropdown-target]'), {
         afterOpen: function(){
