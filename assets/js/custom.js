@@ -187,15 +187,35 @@ function renderLines(){
     }
 }
 
+// custom text
+var fontBase = 800,                   // selected default width for canvas
+    fontSize = 50;                     // default size for font
+
+function getFont() {
+    var ratio = fontSize / fontBase;   // calc ratio
+    var size = canvas.width * ratio;   // get font size based on current width
+    return (size|0) + 'px sans-serif'; // set font
+
+}
+
 function draw_text(){
 
-    ctx.font = 'bold 65px Arial, sans-serif';
+    ctx.font = getFont();
     ctx.fillStyle = '#fff';
-    ctx.fillText('MLTune. Engage and Create', 50, 550);
+
+    ctx.fillText('MLTune. Engage & Create',52,550);
+
+
+    // ctx.fillText('Engage. Create.', canvas.width*0.01, 600);
+    // ctx.fillText.setAttribute('font', getfont());
+
+    // ctx.fillText('MLTune. Engage and Create',50,550)
+    
     ctx.strokeStyle = '#CFFF04';
-    ctx.strokeText('MLTune. Engage and Create', 52, 552);
+    ctx.strokeText('MLTune. Engage & Create', 52, 552);
     ctx.textBaseline = 'bottom';
 }
+
 
 
 // calculate distance between two points

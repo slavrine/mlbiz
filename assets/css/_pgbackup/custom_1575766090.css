@@ -210,7 +210,6 @@ canvas {
 .g-bg-bluepink-lineargradient {
     background-repeat: repeat-x;
     background-image: linear-gradient(50deg, #2b7cb6, #f62d51);
-    text-align: center;
 }
 
 .services_title_size {
@@ -243,28 +242,12 @@ canvas {
     align-items: center;
 }
 
-.bg_footer {
-    background-image: url('../img/custom/footer/upside_down_bg_works.png');
-}
-
-.footer_scroll_up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer_scroll_icon {
-    position: absolute !important;
-    bottom: 1% !important;
-    left: 52.5% !important;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-backface-visibility: hidden;
-}
-
 .scroll_up_footer {
     display: flex;
     justify-content: center;
     align-items: end;
+}
+
+.bg_footer {
+    background-image: url('../img/custom/footer/upside_down_bg_works.png');
 }

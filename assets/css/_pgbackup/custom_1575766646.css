@@ -255,16 +255,10 @@ canvas {
 
 .footer_scroll_icon {
     position: absolute !important;
-    bottom: 1% !important;
-    left: 52.5% !important;
+    top: 75% !important;
+    left: 50% !important;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -webkit-backface-visibility: hidden;
-}
-
-.scroll_up_footer {
-    display: flex;
-    justify-content: center;
-    align-items: end;
 }

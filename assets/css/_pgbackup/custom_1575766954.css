@@ -262,9 +262,3 @@ canvas {
     transform: translate(-50%, -50%);
     -webkit-backface-visibility: hidden;
 }
-
-.scroll_up_footer {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
