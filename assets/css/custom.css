@@ -268,3 +268,8 @@ canvas {
     justify-content: center;
     align-items: end;
 }
+
+.navbar_wide {
+    width: 99vw;
+    margin: 0.01vw;
+}
