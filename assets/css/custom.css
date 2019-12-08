@@ -247,3 +247,7 @@ canvas {
     justify-content: center;
     align-items: end;
 }
+
+.bg_footer {
+    background-image: url('../img/custom/footer/upside_down_bg_works.png');
+}
