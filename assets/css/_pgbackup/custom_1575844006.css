@@ -245,14 +245,8 @@ canvas {
 
 .bg_footer {
     background-image: url('../img/custom/footer/bg_circle.jpg');
-    position: relative;
-    width: 100vw;
-    max-width: 1200px;
     height: 60vw;
-    max-height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
 }
 
 .footer_scroll_up {
@@ -280,12 +274,4 @@ canvas {
 .navbar_wide {
     width: 99vw;
     margin: 0.01vw;
-}
-
-.footer_btn {
-    border: none;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }

@@ -283,9 +283,7 @@ canvas {
 }
 
 .footer_btn {
-    border: none;
-}
-
-::-webkit-scrollbar {
-    display: none;
+    background: linear-gradient(225deg, #b6003b, #ed1261) !important;
+    border-radius: 50% !important;
+    padding: 5em;
 }

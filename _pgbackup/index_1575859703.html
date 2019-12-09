@@ -804,6 +804,7 @@
                     <!-- Copyright Footer -->                     
                     <!-- End Copyright Footer -->                     
                     <div class="shortcode-html">
+                        <a class="btn u-btn-primary" href="#modal1" data-modal-target="#modal1" data-modal-effect="fadein">Launch Modal </a>
                         <!-- Demo modal window -->
                         <div id="modal1" class="text-left g-max-width-600 g-overflow-y-auto g-pa-20 g-bg-black" style="display: none;">
                             <button type="button" class="close" onclick="Custombox.modal.close();">
@@ -818,36 +819,36 @@
                                         <!-- Radio Option 1 -->
                                         <label class="form-check-inline u-check g-pl-25 ml-0 g-mr-25 color-white">
                                             <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroup1_1" type="radio" checked="">
-                                            <div class="u-check-icon-radio-v6 g-absolute-centered--y g-left-0">
-                                                    <i class="fa" data-check-icon="" data-uncheck-icon=""></i>
+                                            <div class="u-check-icon-font g-absolute-centered--y g-left-0">
+                                                <i class="fa" data-check-icon="" data-uncheck-icon=""></i>
                                             </div>
                                             Under $3000
                                         </label>
                                         <!-- End Radio Option 1 -->
                                         <!-- Radio Option 2 -->
                                         <label class="form-check-inline u-check g-pl-25 ml-0 g-mr-25 color-white">
-                                            <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroup1_1" type="radio" checked="">
-                                            <div class="u-check-icon-radio-v6 g-absolute-centered--y g-left-0">
-                                                    <i class="fa" data-check-icon="" data-uncheck-icon=""></i>
-                                                </div>
+                                            <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroup1_2" type="radio" checked="">
+                                            <div class="u-check-icon-radio-v5 g-absolute-centered--y g-left-0">
+                                                <i></i>
+                                            </div>
                                             $3-$5000
                                         </label>
                                         <!-- End Radio Option 2 -->
                                         <!-- Radio Option 3 -->
                                         <label class="form-check-inline u-check g-pl-25 ml-0 g-mr-25 color-white">
-                                            <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroup1_1" type="radio" checked="">
-                                            <div class="u-check-icon-radio-v6 g-absolute-centered--y g-left-0">
-                                                    <i class="fa" data-check-icon="" data-uncheck-icon=""></i>
-                                                </div>
+                                            <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroup1_3" type="radio" checked="">
+                                            <div class="u-check-icon-radio-v4 g-absolute-centered--y g-left-0 g-width-18 g-height-18">
+                                                <i class="g-absolute-centered d-block g-width-10 g-height-10 g-bg-primary--checked"></i>
+                                            </div>
                                             $5-$10000
                                         </label>
                                         <!-- End Radio Option 3 -->
                                         <!-- Radio Option 4 -->
                                         <label class="form-check-inline u-check g-pl-25 ml-0 color-white">
-                                            <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroup1_1" type="radio" checked="">
+                                            <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroup1_4" type="radio" checked="">
                                             <div class="u-check-icon-radio-v6 g-absolute-centered--y g-left-0">
-                                                    <i class="fa" data-check-icon="" data-uncheck-icon=""></i>
-                                                </div>
+                                                <i></i>
+                                            </div>
                                             $10,000+
                                         </label>
                                         <!-- End Radio Option 4 -->
@@ -979,15 +980,15 @@
                                                             <label class="g-mb-10 color-white">Leave a date/time for a callback</label>
                                                             <div class="btn-group justified-content">
                                                                 <label class="u-check">
-                                                                    <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="time1_1" type="radio" checked="" />
+                                                                    <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroupBtn1_1" type="radio" checked="" />
                                                                     <span class="btn btn-md btn-block u-btn-outline-lightgray g-color-white--checked g-bg-primary--checked rounded-0">Morning</span>
                                                                 </label>
                                                                 <label class="u-check">
-                                                                    <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="time1_1" type="radio" />
+                                                                    <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroupBtn1_1" type="radio" />
                                                                     <span class="btn btn-md btn-block u-btn-outline-lightgray g-color-white--checked g-bg-primary--checked g-brd-left-none--md rounded-0">Afternoon</span>
                                                                 </label>
                                                                 <label class="u-check">
-                                                                    <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="time1_1" type="radio" />
+                                                                    <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" name="radGroupBtn1_1" type="radio" />
                                                                     <span class="btn btn-md btn-block u-btn-outline-lightgray g-color-white--checked g-bg-primary--checked g-brd-left-none--md rounded-0">Evening</span>
                                                                 </label>
                                                             </div>
@@ -995,7 +996,7 @@
                                                             <div class="col-md-6">
                                                                 <br />
                                                                 <label class="g-mb-10 color-white" for="autocomplete1">Timezone</label>
-                                                                <input class="form-control form-control-md rounded-0" id="autocomplete2" type="text" placeholder="e.g. EST or Toronto" data-url="assets/include/ajax/autocomplete-data-1.json" />
+                                                                <input class="form-control form-control-md rounded-0" id="autocomplete2" type="text" placeholder="e.g. MDT or Toronto" data-url="assets/include/ajax/autocomplete-data-1.json" />
                                                                 <small class="form-text text-muted g-font-size-default g-mt-10"></small> 
                                                             </div>
                                                             <!-- Area of Interest -->
@@ -1004,18 +1005,7 @@
                                                     </form>
                                                     <div class="form-group g-mb-20">
                                                         <label class="g-mb-10 color-white" for="inputGroup2_2">Your project details</label>
-                                                        <textarea class="form-control form-control-md rounded-0" id="inputGroup2_2" rows="3" placeholder="Problems that need solving go here..."></textarea>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="g-mt-30 g-mb-30 col-sm-3">
-</div>
-                                                        <div class="g-mt-30 g-mb-30 col-sm-3">
-</div>
-                                                        <div class="g-mt-30 g-mb-30 col-sm-3">
-                                                            <div class="d-flex">
-                                                                <button class="btn btn-block u-shadow-v32 g-brd-none g-color-white g-bg-black g-bg-primary--hover g-font-size-16 g-rounded-30 g-py-10 ml-2 g-mt-0 g-bg-bluepink-lineargradient" type="button">SEND</button>
-                                                            </div>
-                                                        </div>
+                                                        <textarea id="inputGroup2_2" class="form-control form-control-md rounded-0" rows="3" placeholder="Text area"></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="shortcode-styles">

@@ -245,11 +245,8 @@ canvas {
 
 .bg_footer {
     background-image: url('../img/custom/footer/bg_circle.jpg');
-    position: relative;
-    width: 100vw;
-    max-width: 1200px;
-    height: 60vw;
-    max-height: 600px;
+    height: 65vw;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,9 +280,7 @@ canvas {
 }
 
 .footer_btn {
-    border: none;
-}
-
-::-webkit-scrollbar {
-    display: none;
+    background: linear-gradient(225deg, #b6003b, #ed1261) !important;
+    border-radius: 50% !important;
+    padding: 5em;
 }
