@@ -289,3 +289,10 @@ canvas {
 ::-webkit-scrollbar {
     display: none;
 }
+
+@media (max-width:768px){
+    .btn_min_width {
+        min-width: 300px;
+    }
+}
+
