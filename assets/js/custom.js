@@ -17,19 +17,27 @@ var ball = {
       alpha: 1,
       phase: 0
    },
-   ball_color = {
-       r: 207,
-       g: 255,
-       b: 4
+//    ball_color = {
+//        r: 207,
+//        g: 255,
+//        b: 4
+ball_color = {
+    r: 252,
+    g: 252,
+    b: 252
    },
-   R = 2,
+//    R = 2,
+    R = 4,
+
    balls = [],
    alpha_f = 0.03,
    alpha_phase = 0,
     
 // Line
-   link_line_width = 0.8,
-   dis_limit = 260,
+//    link_line_width = 0.8,
+    link_line_width = 1.5,
+
+    dis_limit = 260,
    add_mouse_point = true,
    mouse_in = false,
    mouse_ball = {
@@ -189,7 +197,7 @@ function renderLines(){
 
 // custom text
 var fontBase = 800,                   // selected default width for canvas
-    fontSize = 50;                     // default size for font
+    fontSize = 60;                     // default size for font
 
 function getFont() {
     var ratio = fontSize / fontBase;   // calc ratio
@@ -203,7 +211,9 @@ function draw_text(){
     ctx.font = getFont();
     ctx.fillStyle = '#fff';
 
-    ctx.fillText('MLTune. Engage & Create',52,550);
+    ctx.fillText('Tune. Solve. Optimize.',52,500);
+    // ctx.fillText('Solve.',82,500);
+    // ctx.fillText('Optimize.',82,600);
 
 
     // ctx.fillText('Engage. Create.', canvas.width*0.01, 600);
@@ -211,8 +221,8 @@ function draw_text(){
 
     // ctx.fillText('MLTune. Engage and Create',50,550)
     
-    ctx.strokeStyle = '#CFFF04';
-    ctx.strokeText('MLTune. Engage & Create', 52, 552);
+    // ctx.strokeStyle = '#fff';
+    // ctx.strokeText('MLTune.', 52, 552);
     ctx.textBaseline = 'bottom';
 }
 
