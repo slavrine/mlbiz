@@ -323,3 +323,7 @@ canvas {
 .g-brd-gray-light-v4 {
     border-color: #5e5e5e !important;
 }
+
+.header_width {
+    width: 100vw;
+}
