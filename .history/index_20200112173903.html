@@ -799,7 +799,7 @@
         <!-- JS Custom -->
         <script src="assets/js/custom.js"></script>
         <!-- JS Plugins Init. -->
-        <!-- <script>
+        <script>
                 $(document).ready(function () {
                   // initialization of custom select
                   $.HSCore.components.HSSelect.init('.js-custom-select');
@@ -807,24 +807,18 @@
                   // initialization of forms
                 //   $.HSCore.components.HSDatepicker.init('#datepickerInline');
                 });
-              </script> -->
-        <!-- <script>
+              </script>
+        <script>
                 $(document).on('ready', function () {
                   // initialization of popups
                   $.HSCore.components.HSModalWindow.init('[data-modal-target]');
                   $.HSCore.components.HSDatepicker.init('#datepickerDefault, #datepickerInline, #datepickerInlineFrom, #datepickerFrom');
 
                 });
-              </script> -->
+              </script>
         <script>
 
-    $(document).ready(function () {
-                    // initialization of custom select
-                    $.HSCore.components.HSSelect.init('.js-custom-select');
-    
-                    // initialization of forms
-                    //   $.HSCore.components.HSDatepicker.init('#datepickerInline');
-                    });
+
     $(document).on('ready', function () {
       // initialization of go to
       $.HSCore.components.HSGoTo.init('.js-go-to');
@@ -868,7 +862,6 @@
       // initialization of header
       $.HSCore.components.HSHeader.init($('#js-header'));
       $.HSCore.helpers.HSHamburgers.init('.hamburger');
-    });
     });
   </script>
     </body>
