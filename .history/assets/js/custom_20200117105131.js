@@ -219,17 +219,17 @@ function getvert() {
 
 
 function draw_text(){
-    textwidth=canvas.width/2;
-    textheight=canvas.height/2;
-
+    w2=canvas.width/2;
+    ctx.moveTo(w2);
+    ctx.textAlign="center";
+    
     ctx.font = getFont();
     ctx.fillStyle = '#fff';
-
-    // ctx.fillText('Tune. Solve. Optimize.',52,350);
-    ctx.fillText('Tune. Solve. Optimize.',textwidth,textheight);
-
-    ctx.textAlign="center";
+    // ctx.textAlign="left";
     ctx.textBaseline="top";
+
+    // ctx.fillText('Tune. Solve. Optimize.',80,350);
+    ctx.fillText('Tune. Solve. Optimize.',52,350);
 
 
    

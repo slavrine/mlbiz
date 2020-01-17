@@ -207,32 +207,19 @@ function getFont() {
 
 }
 
-var vertBase = 800,                   // selected default width for canvas
-    vertSize = 60;                     // default size for font
-
-function getvert() {
-    // var ratio = vertSize / vertBase;   // calc ratio
-    var w2 = canvas.width/2;   // get half width based on current width
-    // return (size|0) + 'px sans-serif'; // set font
-    return(w2);
-}
 
 
 function draw_text(){
-    textwidth=canvas.width/2;
-    textheight=canvas.height/2;
 
     ctx.font = getFont();
     ctx.fillStyle = '#fff';
-
-    // ctx.fillText('Tune. Solve. Optimize.',52,350);
-    ctx.fillText('Tune. Solve. Optimize.',textwidth,textheight);
-
-    ctx.textAlign="center";
+    // ctx.textAlign="left";
     ctx.textBaseline="top";
 
+    ctx.fillText('Tune. Solve. Optimize.',52,350);
 
-   
+    // ctx.fillText('Solve.',82,500);
+    // ctx.fillText('Optimize.',82,600);
 
 
     // ctx.fillText('Engage. Create.', canvas.width*0.01, 600);
