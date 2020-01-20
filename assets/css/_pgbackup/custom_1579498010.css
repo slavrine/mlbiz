@@ -227,6 +227,14 @@ canvas {
     background-size: cover;
 }
 
+.works_title_spacing {
+    padding: 8em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .services_title_space {
     height: 20vw;
     display: flex;
@@ -383,9 +391,5 @@ canvas {
 
 .who_we_are_g_color {
     color: black !important;
-}
-
-.works_title_spacing {
-    padding: 8vw;
 }
 

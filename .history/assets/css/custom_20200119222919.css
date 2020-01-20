@@ -227,14 +227,6 @@ canvas {
     background-size: cover;
 }
 
-.works_title_spacing {
-    padding: 4em;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .services_title_space {
     height: 20vw;
     display: flex;
@@ -369,6 +361,31 @@ canvas {
 }
 
 .who_we_are_bg_color {
-    background-color: #2165B7;
+    font-size: 1.5em;
+}
+
+.who-we_are_bg {
+    background-image: url('../img/custom/who_we_are/who_we_are_hero.jpg');
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.who_we_are_flex {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.who_we_are_section {
+    background: white;
+}
+
+.who_we_are_g_color {
+    color: black !important;
+}
+
+.works_title_spacing {
+    padding: 8vw;
 }
 
