@@ -207,15 +207,6 @@ function getFont() {
 
 }
 
-var vertBase = 800,                   // selected default width for canvas
-    vertSize = 60;                     // default size for font
-
-function getvert() {
-    // var ratio = vertSize / vertBase;   // calc ratio
-    var w2 = canvas.width/2;   // get half width based on current width
-    // return (size|0) + 'px sans-serif'; // set font
-    return(w2);
-}
 
 
 function draw_text(){
