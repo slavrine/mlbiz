@@ -375,21 +375,12 @@ canvas {
 .who-we_are_bg {
     background-image: url('../img/custom/who_we_are/who_we_are_hero.jpg');
     background-size: cover;
-    opacity: 0.7;
 }
 
 .who_we_are_flex {
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-top: 8em;
     padding-bottom: 8em;
-}
-
-.who_we_are_section {
-    background: white;
-}
-
-.who_we_are_g_color {
-    color: black !important;
 }
 

@@ -199,8 +199,7 @@ function renderLines(){
 // custom text
 var fontBase = 800,                   // selected default width for canvas
     fontSize = 60;                     // default size for font
-    // fontSize2= 15,
-    // fontBase2 = 600;               
+    fontSize2= 30;
 function getFont() {
     var ratio = fontSize / fontBase;   // calc ratio
     var size = canvas.width * ratio;   // get font size based on current width
@@ -208,17 +207,17 @@ function getFont() {
 
 }
 
-// function getFont2() {
-//     var ratio = fontSize2 / fontBase2;   // calc ratio
-//     var size = canvas.width * ratio;   // get font size based on current width
-//     return (size|0) + 'px sans-serif'; // set font
-// }
+function getFont2() {
+    var ratio = fontSize2 / fontBase;   // calc ratio
+    var size = canvas.width * ratio;   // get font size based on current width
+    return (size|0) + 'px sans-serif'; // set font
+}
 
-// function getFont2_val() {
-//     var ratio = fontSize2 / fontBase2;   // calc ratio
-//     var size = canvas.width * ratio;   // get font size based on current width
-//     return (size|0); // set font
-// }
+function getFont2_val() {
+    var ratio = fontSize2 / fontBase;   // calc ratio
+    var size = canvas.width * ratio;   // get font size based on current width
+    return (size|0); // set font
+}
 
 function draw_text(){
     textwidth=canvas.width/2;
@@ -231,9 +230,8 @@ function draw_text(){
     ctx.fillText('Tune. Solve. Optimize.',textwidth,textheight);
 
 
-    // ctx.font = getFont2();
-    // ctx.fillText('We build Machine learning and Artificial Intelligence products in a variety of industries.',textwidth,textheight+getFont2_val());
-    // ctx.fillText('We create customized solutions in tandem with our clients domain expertise.',textwidth,textheight+getFont2_val()*2);
+    ctx.font = getFont2();
+    ctx.fillText('We build Machine learning and Artificial Intelligence products in a variety of industries. We create customized solutions in tandem with our clients domain expertise.',textwidth,textheight+getFont2_val());
 
     ctx.textAlign="center";
     ctx.textBaseline="top";

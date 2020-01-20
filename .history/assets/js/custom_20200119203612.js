@@ -198,7 +198,7 @@ function renderLines(){
 
 // custom text
 var fontBase = 800,                   // selected default width for canvas
-    fontSize = 60;                     // default size for font
+    fontSize = 60,                     // default size for font
     // fontSize2= 15,
     // fontBase2 = 600;               
 function getFont() {
