@@ -392,9 +392,9 @@ canvas {
 }
 
 .bg_page {
-    background-image: url('../img/custom/bg/abstrait-gris-pointille/bg_page.png');
-    height: 40vh;
-    background-size: cover;
-    background-position: top;
+    background-image: url('../img/custom/bg/grey-square-pattern-background-vector-illustration/bg_page.png');
+    height: 100vh;
+    background-size: cov;
+    background-position: center;
 }
 

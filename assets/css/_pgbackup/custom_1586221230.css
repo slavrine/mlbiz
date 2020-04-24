@@ -221,6 +221,12 @@ canvas {
     align-items: center;
 }
 
+.bg_works {
+    background-image: url('../img/custom/works/upside_down_bg_works.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .services_title_space {
     height: 20vw;
     display: flex;
@@ -380,21 +386,6 @@ canvas {
 }
 
 .works_title_spacing {
-    padding: 3vw;
-}
-
-.about_border_icon {
-    border-radius: 50%;
-}
-
-.about_border_article {
-    border: 1px white;
-}
-
-.bg_page {
-    background-image: url('../img/custom/bg/abstrait-gris-pointille/bg_page.png');
-    height: 40vh;
-    background-size: cover;
-    background-position: top;
+    padding: 8vw;
 }
 

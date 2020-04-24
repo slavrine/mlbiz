@@ -391,10 +391,3 @@ canvas {
     border: 1px white;
 }
 
-.bg_page {
-    background-image: url('../img/custom/bg/abstrait-gris-pointille/bg_page.png');
-    height: 40vh;
-    background-size: cover;
-    background-position: top;
-}
-
