@@ -230,8 +230,9 @@ canvas {
 }
 
 .bg_footer {
-    background-image: url('../img/custom/footer/bg_circle.jpg');
+    background-image: url('../img/custom/bg/bg_blue_particles_footer.png');
     position: relative;
+    background-size: cover;
     width: 100vw;
     height: 60vw;
     max-height: 600px;
